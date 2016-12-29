@@ -1,0 +1,23 @@
+.root {
+	-fx-vgap: 20px;
+	-fx-hgap: 20px;
+	-fx-grid-lines-visible: true;
+	-fx-padding: 30px;
+	-fx-alignment: center;
+}
+.button {
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 15px;
+}
+.label {
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 15px;
+	-fx-text-fill:rgb(0,20,255);
+}
+/* Note the change made to an individual component using its ID. */
+#toplabel {
+	-fx-font-size: 32px;
+	-fx-text-alignment: center;
+	-fx-label-padding: 20px;
+	-fx-text-fill:red;
+}
